@@ -1,12 +1,24 @@
-# React + Vite
+# Fase03 - Blog React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
+O **Fase03** é um projeto de blog desenvolvido com **React** e **Vite**, que permite que **professores publiquem posts** e **alunos visualizem os posts**. O design do projeto é limpo e intuitivo, com uma paleta de cores específica, visando proporcionar uma boa experiência de leitura.
 
-Currently, two official plugins are available:
+### Funcionalidades:
+- **Visualização de posts de blog**: Os alunos podem acessar os posts e buscar por um post específico.
+- **Interface administrativa**: O professor pode criar, editar e excluir posts através de uma interface administrativa.
+- **Design moderno e responsivo**: O projeto segue uma paleta de cores específica e tipografia agradável.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
+- **React**: Biblioteca para construção da interface do usuário.
+- **Vite**: Ferramenta moderna de build para desenvolvimento rápido.
+- **ESLint**: Configuração de linting para garantir um código mais limpo e sem erros.
+- **CSS**: Utilizado para a criação de estilos personalizados, seguindo a paleta de cores definida.
 
-## Expanding the ESLint configuration
+## Como Rodar o Projeto Localmente
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clonar o repositório
+Clone este repositório para sua máquina local:
+
+```bash
+git clone https://github.com/dominiquesantos/fase03.git
+
