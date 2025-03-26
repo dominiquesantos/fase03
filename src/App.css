@@ -1,0 +1,111 @@
+/* Definição de Cores */
+:root {
+  --background-color: #FFFBEF;
+  --title-color: #173E44;
+  --button-background-color: #FED173;
+  --text-color: #000;
+}
+
+/* Estilização Global */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Títulos e Botões */
+h1, h2, h3 {
+  color: var(--title-color);
+  font-family: 'Sora', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 48px; /* Tamanho grande padrão */
+}
+
+.description {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.button {
+  background-color: var(--button-background-color);
+  color: var(--title-color);
+  font-family: 'Sora', sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #FFD700; /* Pequena variação ao passar o mouse */
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-family: 'Sora', sans-serif;
+}
+
+.card p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+}
+
+/* ----------- Media Queries (Responsividade) ----------- */
+@media (max-width: 768px) {
+  .card {
+    padding: 15px;  /* Ajuste menor para dispositivos móveis */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Reduz profundidade */
+  }
+
+  .button {
+    width: 100%;  /* Botões ocupando 100% em telas menores */
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 32px;  /* Tamanho reduzido para dispositivos móveis */
+  }
+
+  .description {
+    font-size: 16px;  /* Ajuste de descrição */
+  }
+
+  p {
+    font-size: 15px;  /* Ajuste de texto */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 10px;
+    border-radius: 8px;  /* Menor arredondamento em telas pequenas */
+  }
+
+  h1, h2, h3 {
+    font-size: 22px;  /* Ajuste adicional para smartphones pequenos */
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .button {
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,30 @@
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .card h3 {
+    color: var(--title-color);
+    font-family: 'Sora', sans-serif;
+  }
+  
+  .card p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    color: var(--text-color);
+  }
+  
+  .button {
+    background-color: var(--button-background-color);
+    color: var(--title-color);
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
